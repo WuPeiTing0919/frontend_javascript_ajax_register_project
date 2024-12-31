@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>帳號註冊登入</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="signIn">
+        <h2>帳號登入</h2>
+        <form action="index.html">
+          <label for="email_signIn">帳號</label>
+          <input type="email" placeholder="登入帳號" name="email" id="email_signIn" required>
+          <div class="password_Item"><label for="password_signIn">密碼</label><i class="fa-solid fa-eye-slash"></i></div>
+          <input type="password" placeholder="登入密碼" name="password" id="password_signIn" required>
+          <input type="submit" value="">
+        </form>
+        <ul>
+          <li>帳號註冊</li>
+        </ul>
+      </div>
+  
+      <div class="signUp">
+        <h2>帳號註冊</h2>
+        <form action="index.html">
+          <label for="email_signUp">帳號</label>
+          <input type="email" placeholder="註冊帳號" name="email" id="email_signUp" required>
+          <div class="password_Item"><label for="password_signUp">密碼</label><i class="fa-solid fa-eye-slash"></i></div>
+          <input type="password" placeholder="註冊密碼" name="password" id="password_signUp" required>
+          <input type="submit" value="">
+        </form>
+        <ul>
+          <li>帳號登入</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+*,*:after,*:before{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f0f0f0;
+}
+
+.wrap{
+  width: 500px;
+  margin: 100px auto;
+}
+
+.card{
+  position: relative;
+}
+
+.card h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card form label{
+  font-size: 22px;
+}
+
+.card form .password_Item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .password_Item i{
+  cursor: pointer;
+}
+
+.card form input[type="email"],
+.card form input[type="password"],
+.card form input[type="text"]{
+  width: 350px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  background-color: white;
+}
+
+.card form input[type="submit"]{
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+
+  border: none;
+  background-color: transparent;
+  background: url("https://cdn-icons-png.flaticon.com/512/2161/2161491.png");
+  background-position: center;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.card ul{
+  align-self: flex-start;
+}
+
+.card ul li{
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.card ul li:hover{
+  text-decoration: underline;
+}
+
+.signIn,
+.signUp{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.3);
+  background-color: #FDF7F4;
+  padding: 40px 30px;
+
+  position: absolute;
+  transition: transform 0.6s;
+  backface-visibility: hidden;
+}
+
+.signIn{
+  border-bottom: 20px solid #493628;
+}
+
+.signIn h2{
+  color: #493628;
+}
+
+.signUp{
+  border-bottom: 20px solid #213555;
+}
+
+.signUp h2{
+  color: #213555;
+}
+
+.signUp{
+  transform: rotateY(180deg);
+}
+
+.postflop{
+  transform: rotateY(180deg);
+}
+
+.Preflop{
+  transform: rotateY(0deg);
+}
