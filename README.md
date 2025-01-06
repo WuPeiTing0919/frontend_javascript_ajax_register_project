@@ -23,4 +23,11 @@
   4. backface-visibility 隱藏背面項目，增加翻面動畫應用。
 
 * JavaScript :
-  1. 
+  1. 使用 axios 來進行 Http 請求動作並與後端 API 獲取資料。
+     * GET：獲取數據
+     * POST：提交數據
+     * PUT / PATCH：更新數據
+     * DELETE：刪除數據
+  2. 使用 form 元件可使用 preventDefault() 函式來阻止元件默認的事件行為。
+  3. classList 增加刪除 class 內容來進行互動。
+  4. setAttribute、getAttribute 設定/取得 html 屬性來進行互動。
